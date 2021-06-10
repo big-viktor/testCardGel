@@ -1,0 +1,111 @@
+.container-card{
+    max-width: 575px;
+    background: #F8FAFC;
+    border-radius: 25px;
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 35px;
+    margin-top: 20px;
+}
+.content-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.content-new{
+    margin-top: 5px;
+    height: 2%;
+    background: linear-gradient(261.65deg, #EFBB37 -3.95%, #CF9E1F 109.44%);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 6px 20px 6px 20px ;
+}
+.text-new{
+    margin: 0px;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.text1{
+    text-align: center;
+    font-family: SF UI Display;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    font-style: normal;
+    color: #2C2C2C;
+}
+.text2{
+    font-family: SF UI Display;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    margin-left: 45px;
+    margin-right: 45px;    
+    color: #2C2C2C;
+}
+.price-text{
+    text-align: right;
+    margin-right: 50px;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+
+}
+.content-checkbox{
+    margin-bottom: 20px;
+    padding-top: 40px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.vehicle1{
+    background: #DEDEDE;
+    border-radius: 5px;
+}
+input[type="checkbox" i] {
+    background: #DEDEDE;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 10px 10px 3px 4px;
+    padding: none;
+    border: none;
+}
+input {
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    background: #DEDEDE;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    background: #DEDEDE;
+    border-image: initial;
+}
+.container-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.img-setting{
+    border-radius: 25px;
+}
