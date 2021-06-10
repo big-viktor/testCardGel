@@ -21,12 +21,9 @@ function App() {
   const listItems = item.map((number) =>
    <Card key={number.id} src={number.img}  />
   );
-  console.log(item)
-  // const renderItem = useCallback(() => <Card  />, []);
   return (
     <div className="App">
       {listItems}
-     {/* {item.map((number) => renderItem({number}))} */}
     </div>
   );
 }
